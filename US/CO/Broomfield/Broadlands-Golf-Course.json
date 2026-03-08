@@ -1,0 +1,2102 @@
+{
+  "clubName" : "Broadlands Golf Course",
+  "golfCourseAPIIds" : [
+    19198
+  ],
+  "id" : "0E60C161-A064-4F99-BB0A-03CB0968D97D",
+  "location" : {
+    "address" : "4380 W 144th Ave, Broomfield, CO 80023, USA",
+    "city" : "Broomfield",
+    "coordinate" : {
+      "latitude" : 39.956543,
+      "longitude" : -105.040375
+    },
+    "country" : "United States",
+    "state" : "CO"
+  },
+  "name" : "Broadlands Golf Course",
+  "subCourses" : [
+    {
+      "holes" : [
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95517385866425,
+                "longitude" : -105.04457935131327
+              },
+              "front" : {
+                "latitude" : 39.95522018573148,
+                "longitude" : -105.04431131677602
+              },
+              "id" : "7AE5F3EA-FE4C-46B3-B9E2-B7CF07D6324B",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95482441789758,
+                "longitude" : -105.04573578416182
+              },
+              "front" : {
+                "latitude" : 39.95488334236689,
+                "longitude" : -105.04554375950728
+              },
+              "id" : "98F01892-1F85-4202-8CD5-ED2863A4BA2E",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 9,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95493888012166,
+              "longitude" : -105.04595590232717
+            },
+            "front" : {
+              "latitude" : 39.9550485452491,
+              "longitude" : -105.04559342444313
+            },
+            "middle" : {
+              "latitude" : 39.95500585312408,
+              "longitude" : -105.04580254919169
+            }
+          },
+          "id" : "FA888A9A-0C43-4E6A-BD70-AF52C7854650",
+          "maleHandicap" : 13,
+          "number" : 1,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.955502913162825,
+              "longitude" : -105.04152951660467
+            },
+            "Blue" : {
+              "latitude" : 39.95544387013763,
+              "longitude" : -105.0422156676961
+            },
+            "Gold" : {
+              "latitude" : 39.95544247431062,
+              "longitude" : -105.04176274969636
+            },
+            "Silver" : {
+              "latitude" : 39.95543716368773,
+              "longitude" : -105.04262399182794
+            }
+          },
+          "yardages" : {
+            "Black" : 405,
+            "Blue" : 343,
+            "Blue\/Silver" : 343,
+            "Gold" : 380,
+            "Gold\/Blue" : 343,
+            "Silver" : 303
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95307019194094,
+                "longitude" : -105.04708226518554
+              },
+              "front" : {
+                "latitude" : 39.95332677615137,
+                "longitude" : -105.04725436431846
+              },
+              "id" : "8750EDD7-7D83-49F8-8E05-BAB5F6043986",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95291264962041,
+                "longitude" : -105.04774343726372
+              },
+              "front" : {
+                "latitude" : 39.952994401138056,
+                "longitude" : -105.0477538187606
+              },
+              "id" : "830483FF-93DC-4BD0-864C-12A415451340",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.952801899741054,
+                "longitude" : -105.04761616378055
+              },
+              "front" : {
+                "latitude" : 39.952918042329436,
+                "longitude" : -105.04762251315317
+              },
+              "id" : "38CF79D7-1B2A-424B-862B-6BAA2F0D0804",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.952783507782456,
+                "longitude" : -105.04772800327771
+              },
+              "front" : {
+                "latitude" : 39.95288157266401,
+                "longitude" : -105.04771771978
+              },
+              "id" : "97485C9C-0801-45C1-A1A1-F57FE1DEDF7F",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95171901425905,
+                "longitude" : -105.04767088214443
+              },
+              "front" : {
+                "latitude" : 39.95241654816915,
+                "longitude" : -105.04767848955689
+              },
+              "id" : "1B3A3E5A-6FD0-446F-8786-9A15E235C419",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95166191123646,
+                "longitude" : -105.04734516148845
+              },
+              "front" : {
+                "latitude" : 39.95177833101098,
+                "longitude" : -105.04734128386158
+              },
+              "id" : "280677AA-0358-4F29-894C-FBD809848338",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95173953634352,
+                "longitude" : -105.04709405894931
+              },
+              "front" : {
+                "latitude" : 39.95216345571093,
+                "longitude" : -105.04694759411265
+              },
+              "id" : "949382B1-C092-4F41-A2E1-A2E22CC68915",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 15,
+          "green" : {
+            "back" : {
+              "latitude" : 39.951921797891934,
+              "longitude" : -105.04745244249814
+            },
+            "front" : {
+              "latitude" : 39.95221314935061,
+              "longitude" : -105.04727734377433
+            },
+            "middle" : {
+              "latitude" : 39.952067249125,
+              "longitude" : -105.04737333271414
+            }
+          },
+          "id" : "5028E488-ACAC-4DD5-AB30-91792C00B060",
+          "maleHandicap" : 11,
+          "number" : 2,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.955390235118614,
+              "longitude" : -105.04707432836494
+            },
+            "Blue" : {
+              "latitude" : 39.954611528609966,
+              "longitude" : -105.04736411650956
+            },
+            "Gold" : {
+              "latitude" : 39.95499133588782,
+              "longitude" : -105.04719329164048
+            },
+            "Silver" : {
+              "latitude" : 39.954329129318985,
+              "longitude" : -105.04759634611966
+            }
+          },
+          "yardages" : {
+            "Black" : 407,
+            "Blue" : 314,
+            "Blue\/Silver" : 275,
+            "Gold" : 360,
+            "Gold\/Blue" : 360,
+            "Silver" : 275
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95048372864855,
+                "longitude" : -105.04158303089847
+              },
+              "front" : {
+                "latitude" : 39.950733537473674,
+                "longitude" : -105.04156784942076
+              },
+              "id" : "A795B4EC-742B-4837-8DD0-CBD58837459B",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94988082677506,
+                "longitude" : -105.04149865592834
+              },
+              "front" : {
+                "latitude" : 39.950159024012855,
+                "longitude" : -105.04146463464399
+              },
+              "id" : "F398D67B-9CF2-4558-BEB4-6D9747EA002A",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94972241357758,
+                "longitude" : -105.04153256355076
+              },
+              "front" : {
+                "latitude" : 39.94981775221922,
+                "longitude" : -105.04152909458914
+              },
+              "id" : "C8418B22-D46D-43A4-94D0-7B988CF8BEE6",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94956294416804,
+                "longitude" : -105.04190641509291
+              },
+              "front" : {
+                "latitude" : 39.94975613991872,
+                "longitude" : -105.04190737010269
+              },
+              "id" : "CA883949-C2D3-4952-894D-B9258AE1C997",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.949413720506804,
+                "longitude" : -105.04157117936548
+              },
+              "front" : {
+                "latitude" : 39.94966724679228,
+                "longitude" : -105.04144191196691
+              },
+              "id" : "DE858267-4653-4FB4-B79F-8F193E8EED43",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94968309560862,
+                "longitude" : -105.04218248089947
+              },
+              "front" : {
+                "latitude" : 39.95100584693338,
+                "longitude" : -105.04249767985364
+              },
+              "id" : "1B2D048A-068D-44C9-B517-73991F15EFF7",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 1,
+          "green" : {
+            "back" : {
+              "latitude" : 39.94948112447364,
+              "longitude" : -105.04177144946915
+            },
+            "front" : {
+              "latitude" : 39.9497850550868,
+              "longitude" : -105.04170284793155
+            },
+            "middle" : {
+              "latitude" : 39.94964349824432,
+              "longitude" : -105.04172685505898
+            }
+          },
+          "id" : "D91E59F9-5D95-4B49-BAE7-66C1ABDF5C50",
+          "maleHandicap" : 1,
+          "number" : 3,
+          "par" : 5,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95216902154809,
+              "longitude" : -105.04656917933313
+            },
+            "Blue" : {
+              "latitude" : 39.95196605457348,
+              "longitude" : -105.04578394135399
+            },
+            "Gold" : {
+              "latitude" : 39.95209828159167,
+              "longitude" : -105.0462081418394
+            },
+            "Silver" : {
+              "latitude" : 39.95181809462997,
+              "longitude" : -105.04544069263953
+            }
+          },
+          "yardages" : {
+            "Black" : 620,
+            "Blue" : 547,
+            "Blue\/Silver" : 512,
+            "Gold" : 589,
+            "Gold\/Blue" : 547,
+            "Silver" : 512
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.94755335098398,
+                "longitude" : -105.0420647907092
+              },
+              "front" : {
+                "latitude" : 39.947706988313854,
+                "longitude" : -105.04207992172503
+              },
+              "id" : "E74EFC36-DCB8-4647-9386-056A9AF8F3A5",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.947405727508,
+                "longitude" : -105.04241306294267
+              },
+              "front" : {
+                "latitude" : 39.947563090280546,
+                "longitude" : -105.04247721411976
+              },
+              "id" : "28251402-818E-4E65-814F-CF1A4D42795C",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.947387365653135,
+                "longitude" : -105.04203743436318
+              },
+              "front" : {
+                "latitude" : 39.94746727986331,
+                "longitude" : -105.04202196286276
+              },
+              "id" : "09E20C37-CFCC-4006-BDFE-B079BADAEA21",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94701551903865,
+                "longitude" : -105.04167018742581
+              },
+              "front" : {
+                "latitude" : 39.94793268778625,
+                "longitude" : -105.0415764917367
+              },
+              "id" : "A6800BF7-C1A3-4A43-B000-34262AC88E05",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94707532517922,
+                "longitude" : -105.04212776797151
+              },
+              "front" : {
+                "latitude" : 39.947786053449335,
+                "longitude" : -105.04194059697554
+              },
+              "id" : "CC84365F-BCF2-4398-900B-77BEAD220F14",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 17,
+          "id" : "072D6B08-AC58-49E0-900C-B0D816E843C3",
+          "maleHandicap" : 9,
+          "number" : 4,
+          "par" : 3,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.948975218597184,
+              "longitude" : -105.04126910288461
+            },
+            "Blue" : {
+              "latitude" : 39.948559482208665,
+              "longitude" : -105.04143681929318
+            },
+            "Gold" : {
+              "latitude" : 39.94880353391277,
+              "longitude" : -105.04131906137772
+            },
+            "Silver" : {
+              "latitude" : 39.94835785482471,
+              "longitude" : -105.04191764121458
+            }
+          },
+          "yardages" : {
+            "Black" : 198,
+            "Blue" : 148,
+            "Blue\/Silver" : 148,
+            "Gold" : 176,
+            "Gold\/Blue" : 148,
+            "Silver" : 105
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.94595922087333,
+                "longitude" : -105.03891319421538
+              },
+              "front" : {
+                "latitude" : 39.946115783322774,
+                "longitude" : -105.03917867652794
+              },
+              "id" : "34811CB7-8AB0-406E-8BE6-74F3F6E9B157",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94603391545073,
+                "longitude" : -105.03860169409293
+              },
+              "front" : {
+                "latitude" : 39.94609164762243,
+                "longitude" : -105.03879785877778
+              },
+              "id" : "F03DFE23-C5F0-4CA6-9F32-78A314362106",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94589630339369,
+                "longitude" : -105.03859018865056
+              },
+              "front" : {
+                "latitude" : 39.945968764811695,
+                "longitude" : -105.0387904261738
+              },
+              "id" : "5B181C8C-A5FA-4301-9315-8F227F663502",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94576868181812,
+                "longitude" : -105.03853723689919
+              },
+              "front" : {
+                "latitude" : 39.94580462699148,
+                "longitude" : -105.03864107425971
+              },
+              "id" : "7055E69F-9147-49BA-BC57-7DF39F634746",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94489621931564,
+                "longitude" : -105.03659379559848
+              },
+              "front" : {
+                "latitude" : 39.94486399685505,
+                "longitude" : -105.03695438911002
+              },
+              "id" : "1700A2C4-5C2A-43BD-B987-5D908F5EF170",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.9452423012527,
+                "longitude" : -105.03625718647599
+              },
+              "front" : {
+                "latitude" : 39.94521624658713,
+                "longitude" : -105.03636955929636
+              },
+              "id" : "3934FCC7-4FD9-4BC9-A03B-6C3B6E5807BA",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.945504322566144,
+                "longitude" : -105.03589930704726
+              },
+              "front" : {
+                "latitude" : 39.945425437242925,
+                "longitude" : -105.03729025973779
+              },
+              "id" : "1BDD9242-5C4C-431E-BCCC-293AA07A69E5",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 3,
+          "green" : {
+            "back" : {
+              "latitude" : 39.94516299016439,
+              "longitude" : -105.03607626214237
+            },
+            "front" : {
+              "latitude" : 39.94510337778688,
+              "longitude" : -105.03644916163738
+            },
+            "middle" : {
+              "latitude" : 39.94512865848973,
+              "longitude" : -105.0362446212756
+            }
+          },
+          "id" : "E29D43CF-7D68-4382-9C2F-F58DC4306447",
+          "maleHandicap" : 7,
+          "number" : 5,
+          "par" : 5,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.9470523596098,
+              "longitude" : -105.0414124358987
+            },
+            "Blue" : {
+              "latitude" : 39.94668038964999,
+              "longitude" : -105.04077141376564
+            },
+            "Gold" : {
+              "latitude" : 39.94688999179442,
+              "longitude" : -105.041150674312
+            },
+            "Silver" : {
+              "latitude" : 39.946233782911825,
+              "longitude" : -105.04042581241902
+            }
+          },
+          "yardages" : {
+            "Black" : 543,
+            "Blue" : 470,
+            "Blue\/Silver" : 415,
+            "Gold" : 514,
+            "Gold\/Blue" : 514,
+            "Silver" : 415
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.946130343832436,
+                "longitude" : -105.03519576129312
+              },
+              "front" : {
+                "latitude" : 39.94594372727115,
+                "longitude" : -105.03524441676885
+              },
+              "id" : "CB794CBC-9AEC-4A99-A9D0-C5982951E6FC",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.946379660197906,
+                "longitude" : -105.0352022417168
+              },
+              "front" : {
+                "latitude" : 39.945761227733534,
+                "longitude" : -105.03543374064112
+              },
+              "id" : "02CE26E9-50D1-4CE6-88CD-D3C72B827C77",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94636016397677,
+                "longitude" : -105.03485692836213
+              },
+              "front" : {
+                "latitude" : 39.94466887681722,
+                "longitude" : -105.03491708226554
+              },
+              "id" : "8B1154C2-22C0-4B90-A524-241732FC14E4",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.9459025241513,
+                "longitude" : -105.03522527109608
+              },
+              "front" : {
+                "latitude" : 39.94481788789789,
+                "longitude" : -105.03522134191287
+              },
+              "id" : "8D4CE487-F429-49D7-B489-B0DA5E31FE63",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 13,
+          "green" : {
+            "back" : {
+              "latitude" : 39.94616120249098,
+              "longitude" : -105.03534535220986
+            },
+            "front" : {
+              "latitude" : 39.94585888047434,
+              "longitude" : -105.03552986465179
+            },
+            "middle" : {
+              "latitude" : 39.94600833850739,
+              "longitude" : -105.03543131673526
+            }
+          },
+          "id" : "64B85873-A838-47D7-A31C-DBEA00DD0541",
+          "maleHandicap" : 17,
+          "number" : 6,
+          "par" : 3,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.94454457890448,
+              "longitude" : -105.03492186763371
+            },
+            "Blue" : {
+              "latitude" : 39.94490400294498,
+              "longitude" : -105.03557772430631
+            },
+            "Gold" : {
+              "latitude" : 39.944649883122935,
+              "longitude" : -105.03522207405962
+            },
+            "Silver" : {
+              "latitude" : 39.94512155754908,
+              "longitude" : -105.03561903535717
+            }
+          },
+          "yardages" : {
+            "Black" : 183,
+            "Blue" : 134,
+            "Blue\/Silver" : 134,
+            "Gold" : 165,
+            "Gold\/Blue" : 165,
+            "Silver" : 109
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.94799508385827,
+                "longitude" : -105.03726210789621
+              },
+              "front" : {
+                "latitude" : 39.94788448663753,
+                "longitude" : -105.0370435323518
+              },
+              "id" : "70E47D8C-AF91-4EF8-B070-3EDC5496285F",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94828818937845,
+                "longitude" : -105.03725173454349
+              },
+              "front" : {
+                "latitude" : 39.94803787159799,
+                "longitude" : -105.03717610551386
+              },
+              "id" : "66451A09-F809-4E7B-8F49-61AFAA6CF688",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94810626833851,
+                "longitude" : -105.03737334647685
+              },
+              "front" : {
+                "latitude" : 39.948023680783486,
+                "longitude" : -105.03734901863145
+              },
+              "id" : "0F678C54-8A4A-4E43-B4C3-2F4E68055C22",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.948077173957934,
+                "longitude" : -105.03782921905383
+              },
+              "front" : {
+                "latitude" : 39.94778358397327,
+                "longitude" : -105.03777935694553
+              },
+              "id" : "7ED882A8-5D27-4530-B3CF-56453BF9676B",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94863136436507,
+                "longitude" : -105.03813167780825
+              },
+              "front" : {
+                "latitude" : 39.94846804689502,
+                "longitude" : -105.03802940483656
+              },
+              "id" : "0CDEC90A-5E59-470F-9572-6CD07E800B21",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.948740549194305,
+                "longitude" : -105.03815166921565
+              },
+              "front" : {
+                "latitude" : 39.94864898317378,
+                "longitude" : -105.03817950371541
+              },
+              "id" : "A148264C-A26B-4913-B8E4-0B5717B9DEF8",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.948747133139406,
+                "longitude" : -105.03777792967718
+              },
+              "front" : {
+                "latitude" : 39.94856580200967,
+                "longitude" : -105.03770328758308
+              },
+              "id" : "7BD87DF1-D6E0-42A2-8E06-2AB4FC7D47F5",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 11,
+          "green" : {
+            "back" : {
+              "latitude" : 39.9488604874098,
+              "longitude" : -105.03803942120817
+            },
+            "front" : {
+              "latitude" : 39.948594153385834,
+              "longitude" : -105.03790931181551
+            },
+            "middle" : {
+              "latitude" : 39.94872890091155,
+              "longitude" : -105.03798022514422
+            }
+          },
+          "id" : "BA2BC814-EE69-4A2A-A2D6-E946F45452A4",
+          "maleHandicap" : 15,
+          "number" : 7,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.94685405624868,
+              "longitude" : -105.03486208896904
+            },
+            "Blue" : {
+              "latitude" : 39.94708603539839,
+              "longitude" : -105.03563444567237
+            },
+            "Gold" : {
+              "latitude" : 39.94695309622027,
+              "longitude" : -105.03518760661646
+            },
+            "Silver" : {
+              "latitude" : 39.9471989617432,
+              "longitude" : -105.03604152579808
+            }
+          },
+          "yardages" : {
+            "Black" : 392,
+            "Blue" : 314,
+            "Blue\/Silver" : 314,
+            "Gold" : 359,
+            "Gold\/Blue" : 359,
+            "Silver" : 274
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95180490568726,
+                "longitude" : -105.03495602325488
+              },
+              "front" : {
+                "latitude" : 39.9517726912031,
+                "longitude" : -105.03510691732217
+              },
+              "id" : "D7FE03AF-7717-4DEC-AFA0-EF699A60B6E3",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95154593034561,
+                "longitude" : -105.03523053274535
+              },
+              "front" : {
+                "latitude" : 39.95018945114651,
+                "longitude" : -105.03726128113932
+              },
+              "id" : "1422D3DB-C666-46FB-B491-7207FB98F580",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.9518852978833,
+                "longitude" : -105.0365350478878
+              },
+              "front" : {
+                "latitude" : 39.951649114777375,
+                "longitude" : -105.0365669421612
+              },
+              "id" : "AFFDEF27-655D-4F6A-93DE-9AB6EA171995",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95199899554318,
+                "longitude" : -105.03612363275964
+              },
+              "front" : {
+                "latitude" : 39.951687812824474,
+                "longitude" : -105.03613449942908
+              },
+              "id" : "B1FD2304-426F-4C29-84B8-265B539746EB",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.952129727865035,
+                "longitude" : -105.03556864714518
+              },
+              "front" : {
+                "latitude" : 39.95186736281128,
+                "longitude" : -105.03560921232355
+              },
+              "id" : "F4B2B2E0-0031-4754-BD43-95B22DAFBB05",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 7,
+          "green" : {
+            "back" : {
+              "latitude" : 39.9516889931362,
+              "longitude" : -105.03509041417814
+            },
+            "front" : {
+              "latitude" : 39.951765344342185,
+              "longitude" : -105.03549951701517
+            },
+            "middle" : {
+              "latitude" : 39.95173486075794,
+              "longitude" : -105.03528968525549
+            }
+          },
+          "id" : "B9DAB28D-D005-43B7-9447-4D8D500394E6",
+          "maleHandicap" : 5,
+          "number" : 8,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.94925905140451,
+              "longitude" : -105.03818594707973
+            },
+            "Blue" : {
+              "latitude" : 39.94978445627654,
+              "longitude" : -105.03802050731917
+            },
+            "Gold" : {
+              "latitude" : 39.94945671083056,
+              "longitude" : -105.03808316426604
+            },
+            "Silver" : {
+              "latitude" : 39.95008125414777,
+              "longitude" : -105.03795157139983
+            }
+          },
+          "yardages" : {
+            "Black" : 437,
+            "Blue" : 374,
+            "Blue\/Silver" : 338,
+            "Gold" : 410,
+            "Gold\/Blue" : 374,
+            "Silver" : 338
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95431285125425,
+                "longitude" : -105.03824518538099
+              },
+              "front" : {
+                "latitude" : 39.95414627720492,
+                "longitude" : -105.03801647931832
+              },
+              "id" : "3CFBACD4-4B57-445B-804C-A7DF23C31C51",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95400400322733,
+                "longitude" : -105.0387692689089
+              },
+              "front" : {
+                "latitude" : 39.95386614503345,
+                "longitude" : -105.0386372323263
+              },
+              "id" : "24DCD34F-981A-49D4-8AC8-FAE985FF79A7",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.954273728279475,
+                "longitude" : -105.03881428404188
+              },
+              "front" : {
+                "latitude" : 39.95402213362908,
+                "longitude" : -105.03865657342904
+              },
+              "id" : "53F2EFF3-EF77-4D2D-9E62-CB3B126ADAE7",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95539765111114,
+                "longitude" : -105.03911297514497
+              },
+              "front" : {
+                "latitude" : 39.9553088371706,
+                "longitude" : -105.03908053487206
+              },
+              "id" : "903681F8-29F3-4DEC-95D6-75311323D161",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.955409550332824,
+                "longitude" : -105.03946319686261
+              },
+              "front" : {
+                "latitude" : 39.955275912707975,
+                "longitude" : -105.03941444690575
+              },
+              "id" : "FF79E449-D525-4EBD-B289-64DB4CA92F10",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.9556459942052,
+                "longitude" : -105.03895043733147
+              },
+              "front" : {
+                "latitude" : 39.954375802052056,
+                "longitude" : -105.03811880328549
+              },
+              "id" : "CC5E2F32-8851-4D50-979A-A989A189F39C",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 5,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95564147969571,
+              "longitude" : -105.03914860386568
+            },
+            "front" : {
+              "latitude" : 39.9553134542727,
+              "longitude" : -105.03927305407338
+            },
+            "middle" : {
+              "latitude" : 39.955492422412725,
+              "longitude" : -105.0392468691205
+            }
+          },
+          "id" : "63F77A61-26D7-4BB3-88FC-CC3363084199",
+          "maleHandicap" : 3,
+          "number" : 9,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95240004583773,
+              "longitude" : -105.03628836769676
+            },
+            "Blue" : {
+              "latitude" : 39.952984564316225,
+              "longitude" : -105.03688707910952
+            },
+            "Gold" : {
+              "latitude" : 39.95263077891133,
+              "longitude" : -105.03658421817445
+            },
+            "Silver" : {
+              "latitude" : 39.953047601297165,
+              "longitude" : -105.03730173982767
+            }
+          },
+          "yardages" : {
+            "Black" : 471,
+            "Blue" : 382,
+            "Blue\/Silver" : 347,
+            "Gold" : 430,
+            "Gold\/Blue" : 382,
+            "Silver" : 347
+          }
+        }
+      ],
+      "id" : "BC060EDB-3577-43F6-BEB9-B4997429D706",
+      "name" : "Front",
+      "tees" : {
+        "Black" : {
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 36.8,
+            "slope" : 131,
+            "totalYards" : 3656
+          }
+        },
+        "Blue" : {
+          "female" : {
+            "parTotal" : 36,
+            "rating" : 36.8,
+            "slope" : 133,
+            "totalYards" : 3026
+          },
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 33.6,
+            "slope" : 114,
+            "totalYards" : 3026
+          }
+        },
+        "Blue\/Silver" : {
+          "female" : {
+            "parTotal" : 36,
+            "rating" : 35.8,
+            "slope" : 130,
+            "totalYards" : 2826
+          },
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 32.7,
+            "slope" : 113,
+            "totalYards" : 2826
+          }
+        },
+        "Gold" : {
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 35.4,
+            "slope" : 127,
+            "totalYards" : 3383
+          }
+        },
+        "Gold\/Blue" : {
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 34.4,
+            "slope" : 122,
+            "totalYards" : 3192
+          }
+        },
+        "Silver" : {
+          "female" : {
+            "parTotal" : 36,
+            "rating" : 34.9,
+            "slope" : 126,
+            "totalYards" : 2678
+          },
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 32,
+            "slope" : 108,
+            "totalYards" : 2678
+          }
+        }
+      }
+    },
+    {
+      "holes" : [
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95572255011379,
+                "longitude" : -105.03675464509834
+              },
+              "front" : {
+                "latitude" : 39.95586559251527,
+                "longitude" : -105.03702961771864
+              },
+              "id" : "39C7CB43-2075-4466-9CDC-2BE44E8990DA",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.955205742317496,
+                "longitude" : -105.0351235390996
+              },
+              "front" : {
+                "latitude" : 39.9552200144993,
+                "longitude" : -105.03537091578107
+              },
+              "id" : "8AA62289-37D8-4CB3-96A1-DF806CB57075",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 6,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95529009124007,
+              "longitude" : -105.03496949354215
+            },
+            "front" : {
+              "latitude" : 39.95535709459839,
+              "longitude" : -105.03536327691374
+            },
+            "middle" : {
+              "latitude" : 39.95534483486112,
+              "longitude" : -105.0351548409636
+            }
+          },
+          "id" : "5D06A164-0BD7-440C-9FEB-3B2214D771C1",
+          "maleHandicap" : 2,
+          "number" : 1,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95664714561542,
+              "longitude" : -105.03960642232602
+            },
+            "Blue" : {
+              "latitude" : 39.956416670735784,
+              "longitude" : -105.03889430418666
+            },
+            "Gold" : {
+              "latitude" : 39.9565324845124,
+              "longitude" : -105.03926199402419
+            },
+            "Silver" : {
+              "latitude" : 39.95629108518136,
+              "longitude" : -105.0385032776271
+            }
+          },
+          "yardages" : {
+            "Black" : 451,
+            "Blue" : 378,
+            "Blue\/Silver" : 378,
+            "Gold" : 411,
+            "Gold\/Blue" : 378,
+            "Silver" : 338
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.95586102606656,
+                "longitude" : -105.02994416526312
+              },
+              "front" : {
+                "latitude" : 39.95581131645825,
+                "longitude" : -105.03016571461664
+              },
+              "id" : "99BC0BBD-9CDD-4A47-A2E8-4055DB70F02A",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.956256846912744,
+                "longitude" : -105.02960578138088
+              },
+              "front" : {
+                "latitude" : 39.95622031353236,
+                "longitude" : -105.02982920913301
+              },
+              "id" : "B035874C-B9E0-4913-B5D7-4457931FB1B3",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95617781130325,
+                "longitude" : -105.02962955937144
+              },
+              "front" : {
+                "latitude" : 39.95615929574806,
+                "longitude" : -105.0297320766999
+              },
+              "id" : "601B459A-DCAA-4993-BB09-9CB2883429E1",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 10,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95593040233418,
+              "longitude" : -105.02945521750098
+            },
+            "front" : {
+              "latitude" : 39.95608418584438,
+              "longitude" : -105.02979965733142
+            },
+            "middle" : {
+              "latitude" : 39.956015009204094,
+              "longitude" : -105.02961759252086
+            }
+          },
+          "id" : "59DCB5FD-5A91-40B0-9F24-93B603084493",
+          "maleHandicap" : 6,
+          "number" : 2,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95566606896419,
+              "longitude" : -105.03410384262135
+            },
+            "Blue" : {
+              "latitude" : 39.95571970094848,
+              "longitude" : -105.03338128484553
+            },
+            "Gold" : {
+              "latitude" : 39.95569261332401,
+              "longitude" : -105.0338015750951
+            },
+            "Silver" : {
+              "latitude" : 39.95576396742926,
+              "longitude" : -105.03283142056897
+            }
+          },
+          "yardages" : {
+            "Black" : 421,
+            "Blue" : 352,
+            "Blue\/Silver" : 300,
+            "Gold" : 391,
+            "Gold\/Blue" : 352,
+            "Silver" : 300
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.954867208106684,
+                "longitude" : -105.02704472148791
+              },
+              "front" : {
+                "latitude" : 39.95500822377239,
+                "longitude" : -105.02727420415899
+              },
+              "id" : "022927A3-F44F-434C-A160-D20F26216C5A",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.954604912249714,
+                "longitude" : -105.02730368194719
+              },
+              "front" : {
+                "latitude" : 39.95465936086913,
+                "longitude" : -105.02742391839361
+              },
+              "id" : "DC5C4851-0C7C-4DAC-AC86-594D52E8E493",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 16,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95453591329737,
+              "longitude" : -105.02709457349293
+            },
+            "front" : {
+              "latitude" : 39.95481256801826,
+              "longitude" : -105.02737974332125
+            },
+            "middle" : {
+              "latitude" : 39.954728111688134,
+              "longitude" : -105.02718933050572
+            }
+          },
+          "id" : "C59C5E17-0825-479C-9C15-9FC5B2229DB1",
+          "maleHandicap" : 10,
+          "number" : 3,
+          "par" : 3,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.955906650258456,
+              "longitude" : -105.02893018710651
+            },
+            "Blue" : {
+              "latitude" : 39.95549000250901,
+              "longitude" : -105.02852371798637
+            },
+            "Gold" : {
+              "latitude" : 39.95576674963497,
+              "longitude" : -105.0286803009739
+            },
+            "Silver" : {
+              "latitude" : 39.95525059254482,
+              "longitude" : -105.02837721485085
+            }
+          },
+          "yardages" : {
+            "Black" : 215,
+            "Blue" : 152,
+            "Blue\/Silver" : 152,
+            "Gold" : 185,
+            "Gold\/Blue" : 152,
+            "Silver" : 124
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.951467954479966,
+                "longitude" : -105.02697182607182
+              },
+              "front" : {
+                "latitude" : 39.95188705734404,
+                "longitude" : -105.02711543645022
+              },
+              "id" : "6A74BBCE-0D90-4B1A-85D8-5E979F1EACB0",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.951692041837404,
+                "longitude" : -105.02723260655695
+              },
+              "front" : {
+                "latitude" : 39.95184159268419,
+                "longitude" : -105.02723964937704
+              },
+              "id" : "18F0401A-EE41-449B-AAA9-FC073B99355B",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95127001889666,
+                "longitude" : -105.02765260936015
+              },
+              "front" : {
+                "latitude" : 39.95148294811924,
+                "longitude" : -105.02775785549659
+              },
+              "id" : "CDE73D59-7D70-4DDE-96B4-D17A5F112456",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94915740107813,
+                "longitude" : -105.02687718636358
+              },
+              "front" : {
+                "latitude" : 39.94934174846044,
+                "longitude" : -105.0268798853202
+              },
+              "id" : "A24065E4-4667-4CE4-BFEB-28E199D40AFB",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94893795408387,
+                "longitude" : -105.02673549948491
+              },
+              "front" : {
+                "latitude" : 39.94900984205351,
+                "longitude" : -105.02674063099799
+              },
+              "id" : "B6C96453-135C-4BC1-8B06-90800A0284FB",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 2,
+          "green" : {
+            "back" : {
+              "latitude" : 39.94900052634991,
+              "longitude" : -105.02659347804732
+            },
+            "front" : {
+              "latitude" : 39.9492770995108,
+              "longitude" : -105.02671205545805
+            },
+            "middle" : {
+              "latitude" : 39.94914069306222,
+              "longitude" : -105.02666208802657
+            }
+          },
+          "id" : "E9C2C342-B0DD-4CB8-AFFC-A28B37E3B2FD",
+          "maleHandicap" : 8,
+          "number" : 4,
+          "par" : 5,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95390384880692,
+              "longitude" : -105.02730428452678
+            },
+            "Blue" : {
+              "latitude" : 39.95330420960048,
+              "longitude" : -105.02752856719216
+            },
+            "Gold" : {
+              "latitude" : 39.95361959207847,
+              "longitude" : -105.02733845668057
+            },
+            "Silver" : {
+              "latitude" : 39.952796697495664,
+              "longitude" : -105.02769234334629
+            }
+          },
+          "yardages" : {
+            "Black" : 589,
+            "Blue" : 517,
+            "Blue\/Silver" : 456,
+            "Gold" : 555,
+            "Gold\/Blue" : 517,
+            "Silver" : 456
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.948635351506006,
+                "longitude" : -105.02576110572682
+              },
+              "front" : {
+                "latitude" : 39.948698985263505,
+                "longitude" : -105.02587425391671
+              },
+              "id" : "8FC32DAE-3BD1-485B-B63F-4F98B57F4760",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94855759207496,
+                "longitude" : -105.02572155716095
+              },
+              "front" : {
+                "latitude" : 39.948601834571186,
+                "longitude" : -105.02575411936513
+              },
+              "id" : "7C786AD4-A776-4ED0-A045-4D6F77EF7D31",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94842122718229,
+                "longitude" : -105.02557003162104
+              },
+              "front" : {
+                "latitude" : 39.94848582862243,
+                "longitude" : -105.02569599043214
+              },
+              "id" : "F2205534-35FF-4ECA-AB7E-5EED908AD286",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94831659725727,
+                "longitude" : -105.02547539538465
+              },
+              "front" : {
+                "latitude" : 39.9483887819956,
+                "longitude" : -105.02558393597418
+              },
+              "id" : "4A3F19CA-E619-4771-8A75-E7B795E26493",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 18,
+          "green" : {
+            "back" : {
+              "latitude" : 39.948121361902096,
+              "longitude" : -105.02538164918155
+            },
+            "front" : {
+              "latitude" : 39.94834083285141,
+              "longitude" : -105.0257699984227
+            },
+            "middle" : {
+              "latitude" : 39.948215871892174,
+              "longitude" : -105.02560540803563
+            }
+          },
+          "id" : "365442BD-7473-42DC-8218-EA92C7A68320",
+          "maleHandicap" : 18,
+          "number" : 5,
+          "par" : 3,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.949452398505336,
+              "longitude" : -105.02625989468221
+            },
+            "Blue" : {
+              "latitude" : 39.94902640683116,
+              "longitude" : -105.02620549856478
+            },
+            "Gold" : {
+              "latitude" : 39.94929026534869,
+              "longitude" : -105.02616012988746
+            },
+            "Silver" : {
+              "latitude" : 39.94882224006736,
+              "longitude" : -105.02618403374392
+            }
+          },
+          "yardages" : {
+            "Black" : 160,
+            "Blue" : 112,
+            "Blue\/Silver" : 112,
+            "Gold" : 138,
+            "Gold\/Blue" : 138,
+            "Silver" : 90
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.949281024682875,
+                "longitude" : -105.02875588489832
+              },
+              "front" : {
+                "latitude" : 39.94927540236135,
+                "longitude" : -105.02852251220679
+              },
+              "id" : "6EFB6371-62C6-480B-9706-EBB3EEA094FD",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94936833740093,
+                "longitude" : -105.02911645989411
+              },
+              "front" : {
+                "latitude" : 39.94929717929891,
+                "longitude" : -105.02879266355693
+              },
+              "id" : "A975A0BC-B116-4CEA-A251-72E6B28CC747",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94927088851942,
+                "longitude" : -105.02918588788455
+              },
+              "front" : {
+                "latitude" : 39.94921669459412,
+                "longitude" : -105.02884598218665
+              },
+              "id" : "B7D284FC-FF83-4500-B98E-A61FF762E6C2",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.94928237879599,
+                "longitude" : -105.03127731110708
+              },
+              "front" : {
+                "latitude" : 39.949251834925526,
+                "longitude" : -105.03111702236419
+              },
+              "id" : "BE22CBB5-0D69-4670-8982-CAE834F62E60",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.949178085571845,
+                "longitude" : -105.03131459876572
+              },
+              "front" : {
+                "latitude" : 39.94915427846468,
+                "longitude" : -105.03118525123288
+              },
+              "id" : "117D260A-0DB3-4437-853C-A798E1D55C3D",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.948695104732195,
+                "longitude" : -105.03150532598686
+              },
+              "front" : {
+                "latitude" : 39.948777050527035,
+                "longitude" : -105.0314187601031
+              },
+              "id" : "13D96EDC-7E52-41BC-AAD9-F7D495407F91",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 4,
+          "green" : {
+            "back" : {
+              "latitude" : 39.94849041447469,
+              "longitude" : -105.0317033632416
+            },
+            "front" : {
+              "latitude" : 39.94873863276016,
+              "longitude" : -105.031593640538
+            },
+            "middle" : {
+              "latitude" : 39.94860280255224,
+              "longitude" : -105.0315970488914
+            }
+          },
+          "id" : "AFFE4B2D-70E5-4AF4-90D3-4F450E274EBC",
+          "maleHandicap" : 4,
+          "number" : 6,
+          "par" : 5,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.94841714627433,
+              "longitude" : -105.02694788615942
+            },
+            "Blue" : {
+              "latitude" : 39.94865724630479,
+              "longitude" : -105.02721203617166
+            },
+            "Gold" : {
+              "latitude" : 39.94857049935592,
+              "longitude" : -105.02707026269233
+            },
+            "Silver" : {
+              "latitude" : 39.9490337727678,
+              "longitude" : -105.02822676592275
+            }
+          },
+          "yardages" : {
+            "Black" : 566,
+            "Blue" : 464,
+            "Blue\/Silver" : 464,
+            "Gold" : 482,
+            "Gold\/Blue" : 482,
+            "Silver" : 353
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.951039316947,
+                "longitude" : -105.03207249491689
+              },
+              "front" : {
+                "latitude" : 39.950793831643104,
+                "longitude" : -105.03193353162699
+              },
+              "id" : "EB5E47D2-45AE-4FAC-9A23-BE9A3BEB1EB2",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95138117212612,
+                "longitude" : -105.03155847090528
+              },
+              "front" : {
+                "latitude" : 39.95116806485265,
+                "longitude" : -105.03141492537722
+              },
+              "id" : "7962B13B-315A-433A-A93B-007756D1FBA8",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95143494912948,
+                "longitude" : -105.03193597772793
+              },
+              "front" : {
+                "latitude" : 39.95124615728415,
+                "longitude" : -105.03200070230372
+              },
+              "id" : "0F76A219-4829-47C4-AC98-A2B78E59D04D",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.951421070726,
+                "longitude" : -105.03208451320435
+              },
+              "front" : {
+                "latitude" : 39.95134028650606,
+                "longitude" : -105.03209832781334
+              },
+              "id" : "BFDF0175-64A7-48FD-8E70-F1A826E28583",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95188995471669,
+                "longitude" : -105.03146903330465
+              },
+              "front" : {
+                "latitude" : 39.951744414046374,
+                "longitude" : -105.03155159617613
+              },
+              "id" : "D308F480-1B2B-4A1B-AE5D-8DD64D9D0A34",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95175030348988,
+                "longitude" : -105.0311845222409
+              },
+              "front" : {
+                "latitude" : 39.950529643462055,
+                "longitude" : -105.03127441594951
+              },
+              "id" : "61CB3DE7-482F-4AB5-AA1E-FD5C54AA1F19",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 14,
+          "green" : {
+            "back" : {
+              "latitude" : 39.952098298220065,
+              "longitude" : -105.0315445609372
+            },
+            "front" : {
+              "latitude" : 39.95180790423218,
+              "longitude" : -105.03171390691391
+            },
+            "middle" : {
+              "latitude" : 39.95195244075212,
+              "longitude" : -105.03162659173177
+            }
+          },
+          "id" : "A8C7F892-8A1A-402C-B96E-2AD10D2E24CA",
+          "maleHandicap" : 16,
+          "number" : 7,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.9488666524295,
+              "longitude" : -105.03207167162394
+            },
+            "Blue" : {
+              "latitude" : 39.949498198137626,
+              "longitude" : -105.0318008760884
+            },
+            "Gold" : {
+              "latitude" : 39.94908612687981,
+              "longitude" : -105.03201217609677
+            },
+            "Silver" : {
+              "latitude" : 39.94970087951771,
+              "longitude" : -105.03159557914802
+            }
+          },
+          "yardages" : {
+            "Black" : 375,
+            "Blue" : 304,
+            "Blue\/Silver" : 272,
+            "Gold" : 348,
+            "Gold\/Blue" : 348,
+            "Silver" : 272
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.954574123230444,
+                "longitude" : -105.03283378324448
+              },
+              "front" : {
+                "latitude" : 39.954383796155035,
+                "longitude" : -105.03253672971856
+              },
+              "id" : "3026D8F4-153F-4F29-B868-DE4AF47AC9F2",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95472165537075,
+                "longitude" : -105.03315670844071
+              },
+              "front" : {
+                "latitude" : 39.954599114579,
+                "longitude" : -105.0329009613627
+              },
+              "id" : "8F725C38-74C0-4AF7-94CD-EC314846AD2D",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95510933489445,
+                "longitude" : -105.03371301074725
+              },
+              "front" : {
+                "latitude" : 39.95501231935431,
+                "longitude" : -105.0334134969342
+              },
+              "id" : "C911D9B5-D7B9-4B61-BCED-28650A5C5E71",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.955547858757306,
+                "longitude" : -105.03206695130035
+              },
+              "front" : {
+                "latitude" : 39.95490432211193,
+                "longitude" : -105.03203403495749
+              },
+              "id" : "05F0A5E7-00EB-4310-8DC9-F356C60C8B3F",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95551331267758,
+                "longitude" : -105.03238050375755
+              },
+              "front" : {
+                "latitude" : 39.955121089696455,
+                "longitude" : -105.03238680227456
+              },
+              "id" : "8A0014C1-D78C-4FC1-A162-E3B4D5396174",
+              "type" : "water"
+            },
+            {
+              "back" : {
+                "latitude" : 39.95537447630403,
+                "longitude" : -105.0329038991548
+              },
+              "front" : {
+                "latitude" : 39.955054036402025,
+                "longitude" : -105.03288396673587
+              },
+              "id" : "F73A0284-B420-496D-95B1-1D68CA78DBD2",
+              "type" : "water"
+            }
+          ],
+          "femaleHandicap" : 12,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95532748863185,
+              "longitude" : -105.03387124677654
+            },
+            "front" : {
+              "latitude" : 39.95519625833101,
+              "longitude" : -105.03347713696849
+            },
+            "middle" : {
+              "latitude" : 39.955258030202735,
+              "longitude" : -105.03365649235748
+            }
+          },
+          "id" : "B5252275-06D0-4768-8FA0-0C31143F264F",
+          "maleHandicap" : 14,
+          "number" : 8,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95268205374827,
+              "longitude" : -105.03148006318187
+            },
+            "Blue" : {
+              "latitude" : 39.953237205320235,
+              "longitude" : -105.03161613749823
+            },
+            "Gold" : {
+              "latitude" : 39.952902273011674,
+              "longitude" : -105.03158480065929
+            },
+            "Silver" : {
+              "latitude" : 39.953611404012385,
+              "longitude" : -105.03155664801015
+            }
+          },
+          "yardages" : {
+            "Black" : 396,
+            "Blue" : 328,
+            "Blue\/Silver" : 328,
+            "Gold" : 367,
+            "Gold\/Blue" : 367,
+            "Silver" : 291
+          }
+        },
+        {
+          "features" : [
+            {
+              "back" : {
+                "latitude" : 39.955301124449996,
+                "longitude" : -105.03766418294144
+              },
+              "front" : {
+                "latitude" : 39.955260484725635,
+                "longitude" : -105.03738273245666
+              },
+              "id" : "F9C40E54-C38C-45B5-9AC6-8F8898A857BF",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.955483215784184,
+                "longitude" : -105.03775037968285
+              },
+              "front" : {
+                "latitude" : 39.955418393170966,
+                "longitude" : -105.03756119195552
+              },
+              "id" : "F96B1A6E-06DC-44B2-B568-D17C21E9FE09",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.955745865101285,
+                "longitude" : -105.03887718207616
+              },
+              "front" : {
+                "latitude" : 39.95567569508873,
+                "longitude" : -105.03875270745671
+              },
+              "id" : "1A327E33-1224-413E-9C20-F5CEB2E92324",
+              "type" : "bunker"
+            },
+            {
+              "back" : {
+                "latitude" : 39.955741530465666,
+                "longitude" : -105.03900666620241
+              },
+              "front" : {
+                "latitude" : 39.9556852390399,
+                "longitude" : -105.03889728779676
+              },
+              "id" : "B80DB44A-C725-41B8-89BD-F023A5674981",
+              "type" : "bunker"
+            }
+          ],
+          "femaleHandicap" : 8,
+          "green" : {
+            "back" : {
+              "latitude" : 39.95598243344182,
+              "longitude" : -105.03910587964116
+            },
+            "front" : {
+              "latitude" : 39.95580265059859,
+              "longitude" : -105.03881623315566
+            },
+            "middle" : {
+              "latitude" : 39.95588047858234,
+              "longitude" : -105.03899654222909
+            }
+          },
+          "id" : "B2A1CD99-865A-4DD7-AB3C-6C936248C97E",
+          "maleHandicap" : 12,
+          "number" : 9,
+          "par" : 4,
+          "tees" : {
+            "Black" : {
+              "latitude" : 39.95467676172183,
+              "longitude" : -105.0348840762323
+            },
+            "Blue" : {
+              "latitude" : 39.95466901000284,
+              "longitude" : -105.03554817212336
+            },
+            "Gold" : {
+              "latitude" : 39.95469524922508,
+              "longitude" : -105.03507779847442
+            },
+            "Silver" : {
+              "latitude" : 39.95470091407291,
+              "longitude" : -105.03602859158256
+            }
+          },
+          "yardages" : {
+            "Black" : 420,
+            "Blue" : 362,
+            "Blue\/Silver" : 315,
+            "Gold" : 401,
+            "Gold\/Blue" : 401,
+            "Silver" : 315
+          }
+        }
+      ],
+      "id" : "D077000E-218A-4C57-8EBF-9AC542E70CEB",
+      "name" : "Back",
+      "tees" : {
+        "Black" : {
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 36.4,
+            "slope" : 128,
+            "totalYards" : 3593
+          }
+        },
+        "Blue" : {
+          "female" : {
+            "parTotal" : 36,
+            "rating" : 36.4,
+            "slope" : 136,
+            "totalYards" : 2969
+          },
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 33.6,
+            "slope" : 114,
+            "totalYards" : 2969
+          }
+        },
+        "Blue\/Silver" : {
+          "female" : {
+            "parTotal" : 36,
+            "rating" : 35.2,
+            "slope" : 131,
+            "totalYards" : 2777
+          },
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 32.4,
+            "slope" : 112,
+            "totalYards" : 2777
+          }
+        },
+        "Gold" : {
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 34.8,
+            "slope" : 126,
+            "totalYards" : 3278
+          }
+        },
+        "Gold\/Blue" : {
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 34.1,
+            "slope" : 121,
+            "totalYards" : 3135
+          }
+        },
+        "Silver" : {
+          "female" : {
+            "parTotal" : 36,
+            "rating" : 33.8,
+            "slope" : 121,
+            "totalYards" : 2539
+          },
+          "male" : {
+            "parTotal" : 36,
+            "rating" : 31.7,
+            "slope" : 109,
+            "totalYards" : 2539
+          }
+        }
+      }
+    }
+  ],
+  "tees" : [
+    {
+      "color" : "#000000",
+      "id" : "49A85BA8-660E-4E81-A1EE-A7D9753F42AE",
+      "name" : "Black"
+    },
+    {
+      "color" : "#FFD700",
+      "id" : "92AF4BC5-21E1-4113-93B8-4122EDAC18B8",
+      "name" : "Gold"
+    },
+    {
+      "color" : "#0000FF",
+      "id" : "9B573BF7-4EB9-45E3-A1F1-8A432293D447",
+      "name" : "Blue"
+    },
+    {
+      "color" : "#C0C0C0",
+      "id" : "5A983F72-C35D-427B-8AB0-F459F27D354A",
+      "name" : "Silver"
+    }
+  ]
+}
