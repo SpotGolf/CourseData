@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Broadlands Golf Course",
+    "coordinate": {
+      "latitude": 39.956543,
+      "longitude": -105.040375
+    },
+    "holes": 18,
+    "path": "US/CO/Broomfield/Broadlands-Golf-Course.json"
+  }
+]
