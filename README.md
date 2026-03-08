@@ -10,6 +10,25 @@ To contribute a file, follow these steps:
 4. Fork this repository and add the file to your fork
 5. Open a PR and include a link to the courses website in the PR
 
+## Index
+
+The root `index.json` file lists every course in the repository so clients can search and find nearby courses without a backend. A companion `index.version` file contains an incremental integer — clients compare it against their cached version to know when to re-download the index.
+
+Each entry looks like:
+
+```json
+{
+  "name": "Broadlands Golf Course",
+  "coordinate": { "latitude": 39.956543, "longitude": -105.040375 },
+  "holes": 18,
+  "path": "US/CO/Broomfield/Broadlands-Golf-Course.json"
+}
+```
+
+When you add or remove a course, update `index.json` and increment the number in `index.version`.
+
+## Structure
+
 Your fork should use these structure and naming conventions:
 
 * Files should be named based on the course name (CourseBuilder has good defaults and since no cities have duplicate names that we know of, collisions shouldn't be an issue)
