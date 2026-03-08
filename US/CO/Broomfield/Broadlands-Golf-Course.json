@@ -409,6 +409,20 @@
             }
           ],
           "femaleHandicap" : 17,
+          "green" : {
+            "back" : {
+              "latitude" : 39.94733940032934,
+              "longitude" : -105.04223930247421
+            },
+            "front" : {
+              "latitude" : 39.94770322048703,
+              "longitude" : -105.04225497261504
+            },
+            "middle" : {
+              "latitude" : 39.9475239753742,
+              "longitude" : -105.04223795800826
+            }
+          },
           "id" : "072D6B08-AC58-49E0-900C-B0D816E843C3",
           "maleHandicap" : 9,
           "number" : 4,
