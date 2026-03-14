@@ -1,18 +1,45 @@
 # CourseData
-A repository of JSON files for golf course that are sourced by the community and built using the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) macOS app.
 
-# Contributing
-To contribute a file, follow these steps:
+A Swift library for golf course data models, paired with a community-sourced repository of golf course JSON files built using the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) macOS app.
 
-1. Download the CourseBulider app
+## Swift Package
+
+Add CourseData as a dependency in your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/SpotGolf/CourseData.git", from: "1.0.0")
+]
+```
+
+The library provides Swift types for working with course data: `Course`, `Hole`, `Feature`, `Coordinate`, and related models.
+
+## Contributing Course Data
+
+Course JSON files live in the `Data/` directory, organized geographically:
+
+```
+Data/{Country}/{State}/{City}/{Course-Name}.json
+```
+
+To contribute a course:
+
+1. Download the CourseBuilder app
 2. Build the course you want to add
 3. Export the course to JSON
 4. Fork this repository and add the file to your fork
-5. Open a PR and include a link to the courses website in the PR
+5. Open a PR and include a link to the course's website in the PR
 
-## Index
+### Naming Conventions
 
-The root `index.json` file lists every course in the repository so clients can search and find nearby courses without a backend. A companion `index.version` file contains an incremental integer — clients compare it against their cached version to know when to re-download the index.
+- **Country**: ISO 3166-1 two-letter code (e.g., `US`)
+- **State/Province**: ISO 3166-2 code (e.g., `CO`)
+- **City**: Full name, capital case (e.g., `Broomfield`)
+- **Course name**: Hyphenated, excluding prefixes like "the" (e.g., `Broadlands-Golf-Course.json`)
+
+### Index
+
+The `Data/index.json` file lists every course in the repository so clients can search and find nearby courses without a backend. A companion `Data/index.version` file contains an incremental integer — clients compare it against their cached version to know when to re-download the index.
 
 Each entry looks like:
 
@@ -25,19 +52,9 @@ Each entry looks like:
 }
 ```
 
-When you add or remove a course, update `index.json` and increment the number in `index.version`.
+When you add or remove a course, update `Data/index.json` and increment the number in `Data/index.version`.
 
-## Structure
+## License
 
-Your fork should use these structure and naming conventions:
-
-* Files should be named based on the course name (CourseBuilder has good defaults and since no cities have duplicate names that we know of, collisions shouldn't be an issue)
-* Place the file in the correct country, state/province/locality, and city folders
-* Countries are ISO 3166-1 two-letter codes (i.e. US)
-* States/province/locality are ISO 3166-2 codes
-* Cities are the full name (capital case)
-* Course names should exclude prefixes such as "the" (it makes it simpler to find things)
-
-An example:
-
-US/CO/Broomfield/Broadlands-Golf-Course.json
+- **Code** (Swift library): [MIT](LICENSE)
+- **Data** (course JSON files): [CC0 1.0 Universal](Data/LICENSE)
