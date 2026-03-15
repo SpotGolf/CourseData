@@ -62,6 +62,40 @@ public enum PolygonGeometry {
         })!
     }
 
+    /// Computes the squared Euclidean distance from a point to a line segment in flat
+    /// latitude/longitude space.
+    ///
+    /// Projects the point onto the infinite line defined by the segment, clamps the
+    /// parameter to `[0, 1]`, and returns the squared distance to the clamped point.
+    /// Squared distance is used to avoid an unnecessary `sqrt` when only relative
+    /// comparisons are needed.
+    ///
+    /// - Parameters:
+    ///   - point: The reference point.
+    ///   - segStart: The first endpoint of the segment.
+    ///   - segEnd: The second endpoint of the segment.
+    /// - Returns: The squared distance from `point` to the nearest location on the segment.
+    public static func squaredDistanceToSegment(_ point: Coordinate, segStart: Coordinate, segEnd: Coordinate) -> Double {
+        let sx = segEnd.latitude - segStart.latitude
+        let sy = segEnd.longitude - segStart.longitude
+        let lengthSq = sx * sx + sy * sy
+
+        // Degenerate segment (both endpoints are the same point)
+        guard lengthSq > 1e-20 else {
+            let dx = point.latitude - segStart.latitude
+            let dy = point.longitude - segStart.longitude
+            return dx * dx + dy * dy
+        }
+
+        // Project point onto the line, clamped to [0, 1]
+        let t = max(0, min(1, ((point.latitude - segStart.latitude) * sx + (point.longitude - segStart.longitude) * sy) / lengthSq))
+        let projLat = segStart.latitude + t * sx
+        let projLon = segStart.longitude + t * sy
+        let dx = point.latitude - projLat
+        let dy = point.longitude - projLon
+        return dx * dx + dy * dy
+    }
+
     public static func contains(_ point: Coordinate, in polygon: [Coordinate]) -> Bool {
         guard polygon.count >= 3 else { return false }
         var inside = false

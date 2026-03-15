@@ -125,4 +125,49 @@ public struct Course: Identifiable, Codable, Equatable, Hashable {
         self.features = features
         self.subCourses = subCourses
     }
+
+    /// Finds a feature by its unique integer identifier.
+    ///
+    /// - Parameter id: The feature ID to search for.
+    /// - Returns: The matching ``Feature``, or `nil` if no feature has that ID.
+    public func findFeature(id: Int) -> Feature? {
+        features.first { $0.id == id }
+    }
+
+    /// Returns all features that belong to the given hole.
+    ///
+    /// Resolves the hole's `features` ID list against this course's ``features`` array.
+    ///
+    /// - Parameter hole: The hole whose features should be resolved.
+    /// - Returns: An array of ``Feature`` objects whose IDs appear in `hole.features`,
+    ///   in the same order they appear in the course's features array.
+    public func features(for hole: Hole) -> [Feature] {
+        let ids = Set(hole.features)
+        return features.filter { ids.contains($0.id) }
+    }
+
+    /// Looks up a hole by sub-course index and hole number.
+    ///
+    /// - Parameters:
+    ///   - subCourseIndex: Zero-based index into ``subCourses``.
+    ///   - number: The hole's ``Hole/number`` property (1-based).
+    /// - Returns: The matching ``Hole``, or `nil` if the sub-course index is out of bounds
+    ///   or no hole in that sub-course has the given number.
+    public func hole(subCourseIndex: Int, number: Int) -> Hole? {
+        guard subCourses.indices.contains(subCourseIndex) else { return nil }
+        return subCourses[subCourseIndex].holes.first { $0.number == number }
+    }
+
+    /// Looks up a hole using raw zero-based array indices.
+    ///
+    /// - Parameters:
+    ///   - subCourse: Zero-based index into ``subCourses``.
+    ///   - hole: Zero-based index into the sub-course's ``SubCourse/holes`` array.
+    /// - Returns: The ``Hole`` at that position, or `nil` if either index is out of bounds.
+    public func holeFromIndices(subCourse: Int, hole: Int) -> Hole? {
+        guard subCourses.indices.contains(subCourse) else { return nil }
+        let holes = subCourses[subCourse].holes
+        guard holes.indices.contains(hole) else { return nil }
+        return holes[hole]
+    }
 }
