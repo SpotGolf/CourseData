@@ -10,24 +10,31 @@ public enum PolygonGeometry {
             return polygon[0]
         }
 
+        // Translate relative to the first vertex to avoid catastrophic cancellation
+        // in the shoelace formula when coordinates have large absolute values.
+        let origin = polygon[0]
         var cx = 0.0, cy = 0.0, area = 0.0
         let n = polygon.count
         for i in 0..<n {
             let j = (i + 1) % n
-            let cross = polygon[i].latitude * polygon[j].longitude - polygon[j].latitude * polygon[i].longitude
+            let xi = polygon[i].latitude - origin.latitude
+            let yi = polygon[i].longitude - origin.longitude
+            let xj = polygon[j].latitude - origin.latitude
+            let yj = polygon[j].longitude - origin.longitude
+            let cross = xi * yj - xj * yi
             area += cross
-            cx += (polygon[i].latitude + polygon[j].latitude) * cross
-            cy += (polygon[i].longitude + polygon[j].longitude) * cross
+            cx += (xi + xj) * cross
+            cy += (yi + yj) * cross
         }
         area /= 2.0
-        guard abs(area) > 1e-10 else {
+        guard abs(area) > 1e-20 else {
             let lat = polygon.map(\.latitude).reduce(0, +) / Double(n)
             let lon = polygon.map(\.longitude).reduce(0, +) / Double(n)
             return Coordinate(latitude: lat, longitude: lon)
         }
         cx /= (6.0 * area)
         cy /= (6.0 * area)
-        return Coordinate(latitude: cx, longitude: cy)
+        return Coordinate(latitude: cx + origin.latitude, longitude: cy + origin.longitude)
     }
 
     public static func area(of polygon: [Coordinate]) -> Double {

@@ -35,15 +35,17 @@ Package.swift     # Swift package manifest
 Course files are organized geographically under `Data/`:
 
 ```
-Data/{Country}/{State}/{City}/{Course-Name}.json
+Data/{Country}/{State}/{City}/{Course-Name}.json.gz
 ```
 
 - **Country**: ISO 3166-1 two-letter code (e.g., `US`)
 - **State/Province**: ISO 3166-2 code (e.g., `CO`)
 - **City**: Full name, capital case (e.g., `Broomfield`)
-- **Course name**: Hyphenated, excluding prefixes like "the" (e.g., `Broadlands-Golf-Course.json`)
+- **Course name**: Hyphenated, excluding prefixes like "the" (e.g., `Broadlands-Golf-Course.json.gz`)
 
-Example: `Data/US/CO/Broomfield/Broadlands-Golf-Course.json`
+Example: `Data/US/CO/Broomfield/Broadlands-Golf-Course.json.gz`
+
+These files are gzipped using the maximum compression.
 
 ## Index and Version Files
 
@@ -58,7 +60,7 @@ The repository maintains two files under `Data/` for client-side course discover
   "name": "Broadlands Golf Course",
   "coordinate": { "latitude": 39.956543, "longitude": -105.040375 },
   "holes": 18,
-  "path": "US/CO/Broomfield/Broadlands-Golf-Course.json"
+  "path": "US/CO/Broomfield/Broadlands-Golf-Course.json.gz"
 }
 ```
 

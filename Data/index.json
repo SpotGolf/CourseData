@@ -1,2 +1,20 @@
 [
+  {
+    "name": "Broadlands Golf Course",
+    "coordinate": {
+      "latitude": 39.956543,
+      "longitude": -105.040375
+    },
+    "holes": 18,
+    "path": "US/CO/Broomfield/Broadlands-Golf-Course.json.gz"
+  },
+  {
+    "name": "Omni Interlocken Golf Course",
+    "coordinate": {
+      "latitude": 39.9216,
+      "longitude": -105.133255
+    },
+    "holes": 27,
+    "path": "US/CO/Broomfield/Omni-Interlocken-Golf-Course.json.gz"
+  }
 ]
