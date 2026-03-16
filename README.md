@@ -16,15 +16,15 @@ The library provides Swift types for working with course data: `Course`, `Hole`,
 
 ## Contributing Course Data
 
-Course JSON files live in the `Data/` directory, organized geographically:
+Course JSON files live in the `Data/` directory, organized geographically, and gzipped to save space and network traffic:
 
 ```
-Data/{Country}/{State}/{City}/{Course-Name}.json
+Data/{Country}/{State}/{City}/{Course-Name}.json.gz
 ```
 
 To contribute a course:
 
-1. Download the CourseBuilder app
+1. Download the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) app
 2. Build the course you want to add
 3. Export the course to JSON
 4. Fork this repository and add the file to your fork
