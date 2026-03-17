@@ -90,6 +90,14 @@ public struct CourseLocation: Codable, Equatable, Hashable {
         self.country = country
         self.coordinate = coordinate
     }
+
+    /// Returns "City, State" when state is present, or just "City" when state is empty.
+    public var cityStateDisplay: String {
+        if state.isEmpty {
+            return city
+        }
+        return "\(city), \(state)"
+    }
 }
 
 public struct Course: Identifiable, Codable, Equatable, Hashable {
