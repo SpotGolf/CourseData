@@ -4,31 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This repository contains two things:
-
-1. **A Swift library** (`CourseData`) providing data models for golf courses — `Course`, `Hole`, `Feature`, `Coordinate`, and related types.
-2. **A data directory** (`Data/`) of community-sourced golf course JSON files built using the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) macOS app.
-
-The data is **not** bundled as a Swift package resource. The `Data/` directory lives in the repo alongside the package but is independent of it.
-
-## Build & Test
-
-```bash
-swift build
-swift test
-```
-
-The project targets macOS 14+ and iOS 17+ and uses CoreLocation.
+This repository contains **A data directory** (`Data/`) of community-sourced golf course JSON files built using the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) macOS app.
 
 ## Directory Structure
-
-### Swift Package
-
-```
-Sources/          # Library source files
-Tests/            # Test target
-Package.swift     # Swift package manifest
-```
 
 ### Course Data Convention
 
@@ -69,12 +47,3 @@ City, state, and country are derived from the `path` field.
 **Maintenance rules:**
 - When a course JSON file is added, removed, or renamed, update `Data/index.json` accordingly and increment the integer in `Data/index.version`.
 - Keep `Data/index.json` sorted alphabetically by `path`.
-
-## Contribution Process
-
-Contributions come via pull requests. Each PR should include a link to the course's website. Course JSON files are exported from the CourseBuilder macOS app.
-
-## License
-
-- **Code** (Swift library): MIT — see [LICENSE](LICENSE)
-- **Data** (course JSON files): CC0 1.0 Universal — see [Data/LICENSE](Data/LICENSE)

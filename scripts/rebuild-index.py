@@ -17,7 +17,7 @@ def extract_course_metadata(filepath, rel_path):
 
     coords = course.get("location", {}).get("coordinates", [])
     coordinate = None
-    if len(coords) == 2:
+    if len(coords) >= 2:
         coordinate = {"latitude": coords[0], "longitude": coords[1]}
 
     holes = sum(len(sc.get("holes", [])) for sc in course.get("subCourses", []))

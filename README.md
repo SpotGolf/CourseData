@@ -1,18 +1,6 @@
 # CourseData
 
-A Swift library for golf course data models, paired with a community-sourced repository of golf course JSON files built using the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) macOS app.
-
-## Swift Package
-
-Add CourseData as a dependency in your `Package.swift`:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/SpotGolf/CourseData.git", from: "1.0.0")
-]
-```
-
-The library provides Swift types for working with course data: `Course`, `Hole`, `Feature`, `Coordinate`, and related models.
+A community-sourced repository of golf course JSON files built using the [CourseBuilder](https://github.com/SpotGolf/CourseBuilder) macOS app.
 
 ## Contributing Course Data
 
@@ -53,8 +41,3 @@ Each entry looks like:
 ```
 
 When you add or remove a course, update `Data/index.json` and increment the number in `Data/index.version`.
-
-## License
-
-- **Code** (Swift library): [MIT](LICENSE)
-- **Data** (course JSON files): [CC0 1.0 Universal](Data/LICENSE)
