@@ -25,5 +25,14 @@
     },
     "holes": 18,
     "path": "US/CO/Cherry Hills Village/Cherry-Hills-Country-Club.json.gz"
+  },
+  {
+    "name": "Walnut Creek Golf Preserve",
+    "coordinate": {
+      "latitude": 39.8998669,
+      "longitude": -105.1166819
+    },
+    "holes": 18,
+    "path": "US/CO/Westminster/Walnut-Creek-Golf-Preserve.json.gz"
   }
 ]
