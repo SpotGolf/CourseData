@@ -1,5 +1,14 @@
 [
   {
+    "name": "Flatirons Golf Course",
+    "coordinate": {
+      "latitude": 40.0100636,
+      "longitude": -105.2208711
+    },
+    "holes": 18,
+    "path": "US/CO/Boulder/Flatirons-Golf-Course.json.gz"
+  },
+  {
     "name": "Broadlands Golf Course",
     "coordinate": {
       "latitude": 39.956543,
