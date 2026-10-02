@@ -36,6 +36,15 @@
     "path": "US/CO/Cherry Hills Village/Cherry-Hills-Country-Club.json.gz"
   },
   {
+    "name": "Coal Creek Golf Course",
+    "coordinate": {
+      "latitude": 39.9585312,
+      "longitude": -105.1521376
+    },
+    "holes": 18,
+    "path": "US/CO/Louisville/Coal-Creek-Golf-Course.json.gz"
+  },
+  {
     "name": "Walnut Creek Golf Preserve",
     "coordinate": {
       "latitude": 39.8998669,
