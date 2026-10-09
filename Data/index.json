@@ -45,6 +45,15 @@
     "path": "US/CO/Louisville/Coal-Creek-Golf-Course.json.gz"
   },
   {
+    "name": "Legacy Ridge Golf Course",
+    "coordinate": {
+      "latitude": 39.8923253,
+      "longitude": -105.0356814
+    },
+    "holes": 18,
+    "path": "US/CO/Westminster/Legacy-Ridge-Golf-Course.json.gz"
+  },
+  {
     "name": "Walnut Creek Golf Preserve",
     "coordinate": {
       "latitude": 39.8998669,
