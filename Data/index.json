@@ -27,6 +27,15 @@
     "path": "US/CO/Broomfield/Omni-Interlocken-Golf-Course.json.gz"
   },
   {
+    "name": "Test course",
+    "coordinate": {
+      "latitude": 39.97351,
+      "longitude": -105.01656
+    },
+    "holes": 9,
+    "path": "US/CO/Broomfield/Test-Course.json.gz"
+  },
+  {
     "name": "Cherry Hills Country Club",
     "coordinate": {
       "latitude": 39.6429297,
