@@ -45,6 +45,15 @@
     "path": "US/CO/Cherry Hills Village/Cherry-Hills-Country-Club.json.gz"
   },
   {
+    "name": "Bear Dance Golf Club",
+    "coordinate": {
+      "latitude": 39.2663078,
+      "longitude": -104.9105791
+    },
+    "holes": 18,
+    "path": "US/CO/Larkspur/Bear-Dance-Golf-Club.json.gz"
+  },
+  {
     "name": "Coal Creek Golf Course",
     "coordinate": {
       "latitude": 39.9585312,
