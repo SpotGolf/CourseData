@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Broadlands Golf Course",
+    "coordinate": {
+      "latitude": 39.95654469999999,
+      "longitude": -105.0403747
+    },
+    "holes": 18,
+    "path": "US/CO/Broomfield/Broadlands-Golf-Course.json.gz"
+  },
+  {
+    "name": "Colorado Golf Club",
+    "coordinate": {
+      "latitude": 39.47615810000001,
+      "longitude": -104.7359695
+    },
+    "holes": 18,
+    "path": "US/CO/Parker/Colorado-Golf-Club.json.gz"
+  }
+]
