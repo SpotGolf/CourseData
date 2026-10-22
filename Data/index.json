@@ -9,6 +9,15 @@
     "path": "US/CO/Broomfield/Broadlands-Golf-Course.json.gz"
   },
   {
+    "name": "Test course",
+    "coordinate": {
+      "latitude": 39.97351,
+      "longitude": -105.01656
+    },
+    "holes": 9,
+    "path": "US/CO/Broomfield/Test-Course.json.gz"
+  },
+  {
     "name": "Colorado Golf Club",
     "coordinate": {
       "latitude": 39.47615810000001,
