@@ -27,6 +27,15 @@
     "path": "US/CO/Larkspur/Bear-Dance-Golf-Club.json.gz"
   },
   {
+    "name": "Arrowhead Golf Club",
+    "coordinate": {
+      "latitude": 39.4520713,
+      "longitude": -105.078762
+    },
+    "holes": 18,
+    "path": "US/CO/Littleton/Arrowhead-Golf-Club.json.gz"
+  },
+  {
     "name": "Colorado Golf Club",
     "coordinate": {
       "latitude": 39.47615810000001,
