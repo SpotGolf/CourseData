@@ -9,13 +9,13 @@
     "path": "US/CO/Broomfield/Broadlands-Golf-Course.json.gz"
   },
   {
-    "name": "Test course",
+    "name": "SpotGolf Course",
     "coordinate": {
       "latitude": 39.97351,
       "longitude": -105.01656
     },
     "holes": 9,
-    "path": "US/CO/Broomfield/Test-Course.json.gz"
+    "path": "US/CO/Broomfield/SpotGolf-Course.json.gz"
   },
   {
     "name": "Bear Dance Golf Club",
