@@ -29,20 +29,39 @@ To contribute a course:
 
 Each course file is a gzipped JSON object with these top-level fields:
 
-| Field | Description |
-|---|---|
-| `id` | Unique ID (UUID) |
-| `name`, `clubName` | Course and club names |
-| `location` | Address, city, state, country, and `coordinate` (`lat`, `lon`, `ele` in meters) |
-| `tees` | Tee sets, each with a `name` and `color` |
-| `comboTees` | Combination tee sets, each with a `name` and the `tees` it mixes |
-| `features` | Map shapes, each with an `id`, `type` (`tee`, `fairway`, `green`, `bunker`, `water`, or `centerline`), and `polygon` |
-| `subCourses` | Groups of holes (e.g., Front and Back nines), with par and yardage totals per tee and gender |
-| `golfCourseAPIIds` | Optional IDs for the course in GolfCourseAPI |
+| Field              | Description                                                                                  |
+|--------------------|----------------------------------------------------------------------------------------------|
+| `id`               | Unique ID (UUID)                                                                             |
+| `name`, `clubName` | Course and club names                                                                        |
+| `location`         | Address, city, state, country, and `coordinate` (`lat`, `lon`, `ele` in meters)              |
+| `tees`             | Tee sets, each with a `name` and `color`                                                     |
+| `comboTees`        | Combination tee sets, each with a `name` and the `tees` it mixes                             |
+| `features`         | Map shapes. See the feature fields below                                                     |
+| `subCourses`       | Groups of holes (e.g., Front and Back nines), with par and yardage totals per tee and gender |
+| `golfCourseAPIIds` | Optional IDs for the course in GolfCourseAPI                                                 |
+
+Each feature has these fields:
+
+| Field     | Description                                                                                                                                                                                    |
+|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`      | Number that holes use to point to the feature                                                                                                                                                  |
+| `type`    | `tee`, `fairway`, `green`, `bunker`, `water`, or `centerline`                                                                                                                                  |
+| `polygon` | The points of the shape. For a `centerline`, the points of the line                                                                                                                            |
+| `osmID`   | Optional. The OpenStreetMap element the feature came from: `n`, `w`, or `r` for a node, way, or relation, then its ID (e.g., `w1258997504`). Left out when the feature is not in OpenStreetMap |
+| `surface` | Optional, greens only. A grid of ground heights across the green. Left out when the green has no elevation data                                                                                |
 
 Each hole in `subCourses[].holes` has a `number`, `par`, `maleHandicap`, `femaleHandicap`, `yardages` per tee, the tee used for each combo tee, the IDs of its `features`, and the ID of its `centerline` feature.
 
 A `polygon` is stored as `{"values": [...]}`, three numbers per point: latitude and longitude in 1/365,000 of a degree, and elevation in feet. The first point's numbers are stored as-is. Each later number is the difference from the same number in the previous point. A missing elevation is `null`.
+
+A `surface` is stored as `{"origin": {...}, "spacing": 1, "columns": 3, "elevations": [...]}`:
+
+- `origin` is the `lat` and `lon` of the center of the south-west cell.
+- `spacing` is the distance between the centers of neighboring cells, in meters.
+- `columns` is the number of cells from west to east. The number of rows is the number of `elevations` divided by `columns`.
+- `elevations` has one number per cell, in centimeters above sea level, row by row from south to north, and west to east within a row. The first number is stored as-is. Each later number is the difference from the last cell that had an elevation. A cell outside the green is `null`.
+
+The cell at column `c` and row `r` is `c * spacing` meters east and `r * spacing` meters north of the origin.
 
 Short example (with most features and holes removed):
 
@@ -66,9 +85,20 @@ Short example (with most features and holes removed):
     { "name": "Black/Gold", "tees": ["Black", "Gold"] }
   ],
   "features": [
-    { "id": 1, "type": "tee", "polygon": { "values": [14590299, -38331072, 5324, -17, 10, -2, -5, -32, 1, 21, -9, 2] } },
-    { "id": 2, "type": "green", "polygon": { "values": [14590518, -38330868, 5327, 53, -10, 1, -1, 30, -1, -28, 13, 0] } },
-    { "id": 3, "type": "centerline", "polygon": { "values": [14590291, -38331057, 5323, 93, 203, -1, 158, -2, 5] } }
+    { "id": 1, "type": "tee", "osmID": "w1258997499", "polygon": { "values": [14590299, -38331072, 5324, -17, 10, -2, -5, -32, 1, 21, -9, 2] } },
+    {
+      "id": 2,
+      "type": "green",
+      "osmID": "w1258997504",
+      "polygon": { "values": [14590518, -38330868, 5327, 53, -10, 1, -1, 30, -1, -28, 13, 0] },
+      "surface": {
+        "origin": { "lat": 39.974022, "lon": -105.016077 },
+        "spacing": 1,
+        "columns": 3,
+        "elevations": [162367, 2, null, -1, 3, 1]
+      }
+    },
+    { "id": 3, "type": "centerline", "osmID": "w1259000526", "polygon": { "values": [14590291, -38331057, 5323, 93, 203, -1, 158, -2, 5] } }
   ],
   "subCourses": [
     {
