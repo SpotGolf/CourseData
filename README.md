@@ -29,16 +29,17 @@ To contribute a course:
 
 Each course file is a gzipped JSON object with these top-level fields:
 
-| Field              | Description                                                                                  |
-|--------------------|----------------------------------------------------------------------------------------------|
-| `id`               | Unique ID (UUID)                                                                             |
-| `name`, `clubName` | Course and club names                                                                        |
-| `location`         | Address, city, state, country, and `coordinate` (`lat`, `lon`, `ele` in meters)              |
-| `tees`             | Tee sets, each with a `name` and `color`                                                     |
-| `comboTees`        | Combination tee sets, each with a `name` and the `tees` it mixes                             |
-| `features`         | Map shapes. See the feature fields below                                                     |
-| `subCourses`       | Groups of holes (e.g., Front and Back nines), with par and yardage totals per tee and gender |
-| `golfCourseAPIIds` | Optional IDs for the course in GolfCourseAPI                                                 |
+| Field              | Description                                                                                                                                                   |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`               | Unique ID (UUID)                                                                                                                                              |
+| `name`, `clubName` | Course and club names                                                                                                                                         |
+| `location`         | Address, city, state, country, and `coordinate` (`lat`, `lon`, `ele` in meters)                                                                               |
+| `tees`             | Tee sets, each with a `name` and `color`                                                                                                                      |
+| `comboTees`        | Combination tee sets, each with a `name` and the `tees` it mixes                                                                                              |
+| `features`         | Map shapes. See the feature fields below                                                                                                                      |
+| `subCourses`       | Groups of holes (e.g., Front and Back nines), with par and yardage totals per tee and gender                                                                  |
+| `golfCourseAPIIds` | Optional IDs for the course in GolfCourseAPI                                                                                                                  |
+| `osmID`            | Optional. The course's OpenStreetMap `leisure=golf_course` element, in the same form as a feature's `osmID`. Left out when the course is not in OpenStreetMap |
 
 Each feature has these fields:
 
